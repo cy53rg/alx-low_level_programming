@@ -2,6 +2,6 @@
 
 int main()
 {
-  printf("-putchar" /n);
+  printf("-putchar /n");
   return 0;
 }
