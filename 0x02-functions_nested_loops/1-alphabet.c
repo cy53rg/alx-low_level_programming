@@ -1,16 +1,16 @@
 #include < stdio.h >  
   
-int main()  
-{  
-    char ch = 'a';  
-  
-    printf("Lowercase English Alphabets:\n");  
-    while(ch <= 'z')  
-    {  
-        printf("%c ", ch);  
-        ch++;  
-    }  
-    printf("\n");  
-  
-    return 0;  
+ 
+   void print_alphabet(void)
+{
+	int n;
+
+	for (n = 'a'; n <= 'z'; n++)
+	{
+		_putchar(n);
+	}
+	_putchar('\n');
+     
+     return 0;
 } 
+
